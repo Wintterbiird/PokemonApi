@@ -1,5 +1,29 @@
-# Vue 3 + Vite
+# Prueba - Desarrollo de interfaces interactivas con framework Vue
+En este prueba se validarón nuestros conocimientos del framework Vue Js obtenidos a lo
+largo de este módulo. Para lograrlo, se necesitó usar todas las competencias aprendidas en
+las unidades para crear una aplicación con temática de la serie Pokémon haciendo uso de la
+PokéAPI.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Descripción
+Entre los capítulos de Pokémon aparecía un momento de interacción con los espectadores
+donde se debía adivinar el nombre de un pokemon viendo solo la silueta.
+La aplicación que se construyo sigue esta misma temática mostrando 20 pokemones
+cuyas imágenes poseen en primera instancia un filtro que no deja ver con claridad cuál
+pokémon es.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Para que el usuario intente descubrir y adivinar cada pokémon deberás permitir el ingreso de
+su nombre por medio de un input debajo de cada una de las imágenes.
+
+Al presionar en el botón “Descubrir” o simplemente apretar la tecla Enter, en caso de que el
+usuario haya escrito correctamente el nombre del pokémon deberá descubrirse quitando el
+filtro aplicado por defecto, de lo contrario se debe mostrar una ventana emergente indicando
+que el nombre ingresado es incorrecto.
+
+Al descubrir un pokémon se deben tomar 2 consideraciones:
+* Ocultar el input y el botón y dejar el nombre del pokémon descubierto
+<img src="https://i.ibb.co/pZmDMZy/charmander.png" alt="charmander" border="0" width="200px">
+* Mostrar un contador con la cantidad de pokémons descubiertos hasta el momento.
+<img src="https://i.ibb.co/Y37zqf9/contador.png" alt="contador" border="0"  width="300px">
+  
+## Maqueta
+<img src="https://i.ibb.co/wd8F3N3/pokemon1.png">
